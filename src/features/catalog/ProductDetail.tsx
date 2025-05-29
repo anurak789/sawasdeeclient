@@ -104,7 +104,7 @@ export default function ProductDetail() {
                       variant="contained" 
                       fullWidth
                     >
-                        Add to cart
+                        {item? 'Update quantity': 'Add to basket'}
                     </Button>
                 </Grid>
             </Grid>
